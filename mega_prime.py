@@ -5,19 +5,17 @@ def prime(n):
         for i in range(2,int(n**0.5)+1):
             if n%i==0:
                 return False
-                break
         else:
             return True
-n=int(input())  
+n=int(input())
 l=len(str(n))
 c=0
 if prime(n):
-    for i in str(n):
-        if prime(int(i)):
+    for j in str(n):
+        if prime(int(j)):
             c=c+1
-if l==c:
+if c==l:
     print("Mega Prime")
 else:
     print("Not Mega Prime")
-            
             
