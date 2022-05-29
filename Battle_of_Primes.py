@@ -1,21 +1,19 @@
 def prime(n):
     if n==0 or n==1:
         return False
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
+            return False
     else:
-        for i in range(2,int(n**0.5)+1):
-            if n%i==0:
-                return False
-        else:
-            return True
-n1=int(input())            
-n2=int(input())
-sum=n1+n2
-i=1
+        return True
+a=int(input())        
+b=int(input())
+k=a+b
+r=1
 while True:
-   # sum=sum+i
-    if prime(sum+i):
-        print(i)
+    if prime(k+r):
+        print(r)
         break
-    i=i+1
-        
+    r=r+1
     
+        
