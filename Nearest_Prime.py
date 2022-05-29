@@ -7,14 +7,16 @@ def prime(n):
                 return False
         else:
             return True
-x=int(input())
-for i in range(x):
+a=int(input())
+for i in range(a):
     n=int(input())
     i=n
     v=n
     c1=0
     c2=0
-            
+    
+
+
     while True:
         if prime(i):
             z=i
@@ -31,6 +33,11 @@ for i in range(x):
         print(k)
     else:
         print(z)
+
+
             
+        
             
-            
+        
+        
+        
