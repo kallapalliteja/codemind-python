@@ -15,22 +15,30 @@ c2=0
 if prime(n):
     print(0)
 else:
-    
+
     while True:
-        c1=c1+1
+        
         if prime(i):
-            z=i
+            #z=i
             break
         i=i+1
+        c1=c1+1
     while True:
-        c2=c2+1
+        
         if prime(v):
-            k=v
+            #k=v
             break
         v=v-1
-    if c1-1>c2-1:
-        print(c2-1)
+        c2=c2+1
+    if c1>c2:
+        print(c2)
     else:
-       print(c1-1)
+        print(c1)
+
+
+        
+    
+        
+    
     
     
