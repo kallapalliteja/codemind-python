@@ -1,8 +1,10 @@
 n=int(input())
 a=0
 b=1
-if n==0 or n==1:
-    print("True")
+if a==n:
+    print(a)
+elif b==n:
+    print(b)
 while True:
     c=a+b
     if c==n:
@@ -12,4 +14,4 @@ while True:
         print("False")
         break
     a,b=b,c
-        
+    
