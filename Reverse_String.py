@@ -1,4 +1,5 @@
 n=input()
-k=n[::-1]
-for i in k:
-    print(i,end="")
+s=n.split()
+l=len(s)
+for i in range(l-1,-1,-1):
+    print(s[i],end=" ")
