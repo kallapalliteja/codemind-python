@@ -1,4 +1,3 @@
-
 a=int(input())
 s=0
 p=1
