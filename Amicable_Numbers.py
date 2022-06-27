@@ -8,4 +8,3 @@ if(b==s):
     print("Amicable")
 else:
     print("Not Amicable")
-        
