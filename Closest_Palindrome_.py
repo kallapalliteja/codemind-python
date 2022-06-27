@@ -30,10 +30,3 @@ elif c1<c2:
     print(z)
 else:
     print(p)
-    
-    
-        
-        
-    
-    
-        
