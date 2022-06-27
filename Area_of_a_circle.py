@@ -1,3 +1,4 @@
-r=int (input())
-area=3.14*r*r
-print("{:.2f}".format(area))
+n=int(input())
+a=3.14
+k=a*(n**2)
+print(format(k))
