@@ -1,12 +1,9 @@
 n=int(input())
-sum=0
-arr=list(map(int,input().strip().split()))
-z=[]
+a=list(map(int,input().split()))
+s=0
 for i in range(n):
-    p=arr[i]
-    while(p):
-        r=p%10
-        p=p//10
-        sum=sum+r
-print(sum)
+    k=str(a[i])
+    for j in k:
+        s=s+int(j)
+print(s)        
         
