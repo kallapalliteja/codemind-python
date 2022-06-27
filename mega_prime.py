@@ -18,4 +18,3 @@ if c==l:
     print("Mega Prime")
 else:
     print("Not Mega Prime")
-            
