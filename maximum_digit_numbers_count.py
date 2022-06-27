@@ -8,5 +8,3 @@ for i in range(n):
 for i in range(n):
     if len(str(arr[i]))==max:
         print(arr[i],end=" ")
-      
-    
