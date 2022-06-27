@@ -8,6 +8,3 @@ if(a==sum):
     print("True")
 else:
     print("False")
-    
-    
-    
