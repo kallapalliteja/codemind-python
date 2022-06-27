@@ -1,11 +1,7 @@
-n=int(input())
-p=n
-rev=0
-while(p):
-    r=p%10
-    p=p//10
-    rev=rev*10+r
-if(rev==n):
-    print("True")
+n=input()
+p=n.upper()
+k=p[::-1]
+if p==k:
+    print('True')
 else:
-    print("False")
+    print('False')
