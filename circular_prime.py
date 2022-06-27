@@ -16,4 +16,4 @@ if prime(n):
     else:
         print("prime but not a circular prime")
 else:
-    print("not prime")
+    print('not prime')
