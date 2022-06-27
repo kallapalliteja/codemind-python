@@ -14,4 +14,3 @@ while True:
         print("False")
         break
     a,b=b,c
-    
