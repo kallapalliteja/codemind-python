@@ -7,4 +7,3 @@ if s==a:
     print("True")
 else:
     print("False")
-        
