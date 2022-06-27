@@ -7,5 +7,3 @@ if(sum>a):
     print("True")
 else:
     print("False")
-    
-    
