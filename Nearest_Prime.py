@@ -33,11 +33,3 @@ for i in range(a):
         print(k)
     else:
         print(z)
-
-
-            
-        
-            
-        
-        
-        
