@@ -15,5 +15,3 @@ while True:
         print(r)
         break
     r=r+1
-    
-        
