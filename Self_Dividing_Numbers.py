@@ -19,4 +19,4 @@ for i in range(a,b+1):
         l=len(str(i))
         p=div(i)
         if l==p:
-            print(i,end=" ")  
+            print(i,end=" ")
