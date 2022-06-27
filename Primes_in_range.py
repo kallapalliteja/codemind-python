@@ -13,6 +13,4 @@ c=0
 for i in range(a,b+1):
     if prime(i):
         c=c+1
-print(c)        
-        
-    
+print(c)
