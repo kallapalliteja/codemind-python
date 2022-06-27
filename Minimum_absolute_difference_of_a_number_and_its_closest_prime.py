@@ -34,11 +34,4 @@ else:
         print(c2)
     else:
         print(c1)
-
-
-        
-    
-        
-    
-    
-    
+ 
