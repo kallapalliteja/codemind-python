@@ -5,4 +5,4 @@ for i in range(n):
     k=abs(arr[i])
     if len(str(k))==l:
         c=c+1
-print(c)        
+print(c)
