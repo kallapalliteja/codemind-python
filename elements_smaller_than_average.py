@@ -8,5 +8,4 @@ c=0
 for i in range(0,n):
     if arr[i]<=ave:
         c=c+1
-print(c)        
-        
+print(c)
