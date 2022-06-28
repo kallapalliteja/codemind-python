@@ -1,18 +1,19 @@
 def prime(n):
-    for i in range(2,int(n**0.5)+1):
-        if n%i==0:
-            return -2
+    if n==1:
+        return False
     else:
-        return 2
-n=int(input())        
-arr=list(map(int,input().strip().split()))
+        for i in range(2,int(n**0.5)+1):
+            if n%i==0:
+                return False
+        else:
+            return True
+n=int(input())   
+s=0
 c=0
-sum=0
-for i in range(0,n):
-    if prime(arr[i])==2 and arr[i]!=1:
-        #print(arr[i],end=" ")
-        sum=sum+arr[i]
+k=list(map(int,input().split()))
+for i in range(n):
+    if prime(k[i]):
+        s=s+k[i]
         c=c+1
-avg=sum/c
-print("{:.2f}".format(avg))
-        
+ave=s/c
+print(format(ave,".2f"))
