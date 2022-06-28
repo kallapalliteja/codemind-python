@@ -1,8 +1,9 @@
 n=int(input())
-arr=list(map(int,input().strip().split())) # 1 2 3 4 5 6 7
+l=list(map(int,input().split()))
 a,b=map(int,input().split())
-sum=0# 0 1 2 3 4 5 6
+s=0
 for i in range(n):
-    if arr[i]>=a and arr[i]<=b:
-        sum=sum+arr[i]
-print(sum)        
+    if l[i]>=a and l[i]<=b:
+        s=s+l[i]
+print(s)        
+        
