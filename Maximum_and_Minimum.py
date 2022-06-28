@@ -16,8 +16,4 @@ if len(k)==0:
     print(-1)
 else:
     
-    print(min(k),max(k))            
-
-          
-            
-            
+    print(min(k),max(k))
