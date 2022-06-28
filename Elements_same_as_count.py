@@ -17,6 +17,3 @@ if len(k)==0:
 else:
     for i in range(len(k)):
         print(k[i],end=" ")
-          
-            
-            
