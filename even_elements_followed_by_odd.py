@@ -6,4 +6,3 @@ for i in range(0,n):
 for i in range(0,n):
     if arr[i]%2!=0:
         print(arr[i],end=" ")
-        
