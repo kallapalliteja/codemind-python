@@ -1,12 +1,11 @@
 n=int(input())
-arr=list(map(int,input().strip().split()))
-sum=0
-for i in range(0,n):
-    sum=sum+arr[i]
-ave=sum//n
+a=list(map(int,input().split()))
 c=0
-for i in range(0,n):
-    if arr[i]>=ave:
+s=0
+for i in range(n):
+    s=s+a[i]
+ave=s//n
+for i in range(n):
+    if a[i]>=ave:
         c=c+1
 print(c)        
-        
