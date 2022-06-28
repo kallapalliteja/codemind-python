@@ -9,5 +9,4 @@ for i in range(n-2):
     if ec==3:
         c=c+1
     ec=0  
-print(c)    
-        
+print(c)
