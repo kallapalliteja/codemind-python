@@ -9,5 +9,4 @@ for i in range(n-2):
     if od==3:
         c=c+1
     od=0  
-print(c)    
-        
+print(c)
