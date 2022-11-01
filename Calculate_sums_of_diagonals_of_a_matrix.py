@@ -15,5 +15,4 @@ k1=str("Principal Diagonal:")+str(pd)
 k2=str("Secondary Diagonal:")+str(sd)
 print(k1)
 print(k2)
-
             
